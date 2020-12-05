@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+nav{
+    width: 100%;
+    height: 50px;
+    background-color:grey;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+nav > div{
+    display: flex;
+    align-items: center;
+    
+}
+nav > div *{
+    margin: 10px;
+}
+.search-inp{
+    height: 25px;
+    border-radius: 5px;
+}
+.search-btn{
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid greenyellow;
+    color: greenyellow;
+    background-color: transparent;
+    transition: all 0.4s;
+}
+.search-btn:hover{
+    background-color:greenyellow;
+    color: greenyellow;
+}
+.links{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    width: 100%;
+    border-bottom: 1px solid grey;
+}
+.links > a{
+    font-size: 15px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: black;
+}
+.links > a:hover{
+    color: blue;
+}
+.content{
+    margin: 0 auto;
+    padding-top: 20px;
+    width: 800px;
+}
+.el{
+    width: 100%;
+    height: 150px;
+    border-radius: 10px;
+    background-color: blueviolet;
+
+}
+.card{
+    padding: 0 3%;
+    margin-top: 10px;
+    width: 94%;
+    height: 300px;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+.card > h4{
+    padding-bottom: 15px;
+    border-bottom: 1px solid grey;
+}
+.inner-card{
+    display: flex;
+    border-bottom: 1px solid grey;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+.square{
+    width: 50px;
+    height: 50px;
+    background-color: violet;
+    border-radius: 5px;
+}
+.inner-card > div{
+    margin-left: 10px;
+}
+.inner-card > div > h5{
+    margin: 0;
+}
