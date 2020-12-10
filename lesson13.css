@@ -1,0 +1,61 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav > div > a{
+    color: black;
+    text-decoration: none;
+    font-size: 28px;
+    font-family: sans-serif;
+    margin: 10px;
+}
+nav > div > p{
+    font-size: 40px;
+}
+select{
+    font-size: 28px;
+    border: none;
+    background-color: transparent;
+}
+.icon{
+    width: 28px;
+    margin-left: 20px;
+}
+.content{
+    display: flex;
+    width: 100%;
+    height: 700px;
+    background-color: lightgrey;
+}
+.sidebar{
+    width: 35%;
+    height: 100%;
+    background-color: grey;
+    color: white;
+    font-size: 20px;
+}
+.sidebar > h1{
+    padding-top: 220px;
+}
+.sidebar > *{
+    margin-left: 10%;
+}
+.sidebar > a{
+    padding-top: 60px;
+    font-size: 25px;
+    color: white;
+}
+.main{
+    width: 65%;
+    height: 100%;
+    background-image: url(img/inspire2actionJune17_1500x750_2+\(4\)+\(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%
+}
