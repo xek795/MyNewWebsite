@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: lightgrey;
+}
+.container{
+    display: flex;
+    width: 900px;
+    height: 500px;
+    background-color: lightpink;
+    margin: 150px auto;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 0 10px green;
+}
+.info{
+    width: 60%;
+    height: 100%;
+    background-color: grey;
+}
+.sidebar{
+    width: 40%;
+    height: 100%;
+    background-color: white;
+}
+   @media(max-width:1200px){
+       .sidebar{
+           background-color: black;
+       }
+}
+@media(max-width:900px){
+    .container{
+        width: 100%;
+        flex-direction: column;
+    }
+    .info{
+        height: 150px;
+        width: 100%;
+    }
+    .sidebar{
+        height: 400px;
+        width: 100%;
+    }
+}
